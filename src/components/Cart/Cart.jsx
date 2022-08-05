@@ -90,7 +90,7 @@ const Cart = (props) => {
   const isSubmittingModalContent = <p>點餐中...</p>;
   const didSubmitModalContent = (
     <>
-      <p>完成點餐，您的餐點很快即將到達～</p>;
+      <p>完成點餐，您的餐點很快即將到達～</p>
       <div className={classes.actions}>
         <button className={classes.button} onClick={props.onHideCart}>
           Close
